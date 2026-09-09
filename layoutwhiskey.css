@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+     
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+header{
+    flex-grow: 1;
+    background-color: black;
+    position: relative;
+} 
+    
+.menu{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+    
+ .caixa-dos-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+  
+  
+.caixa-dos-links a{
+    color: white;
+    text-decoration: none
+}
+    
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 10;
+    position: relative;
+}
+     
+#gradiente{
+    background-image: linear-gradient(to bottom, black, brown, white);
+}
+     
+.textinho{
+    position: absolute;
+    top: 45%;
+    right: 60%;
+    z-index: 5;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+  
+.imagem-bebida{
+    position: absolute;
+    z-index: 10;
+    width: 25%;
+}
+    
+.imagem-background{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.1;
+    width: 50%;
+}
+    
+footer{
+    flex-grow: 1;
+    background-color: white;
+    position: relative;
+}
+    
+.mapa{
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    width: 5%;
+} 

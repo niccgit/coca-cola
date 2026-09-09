@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+header{
+    flex-grow: 1;
+    background-color: white;
+    position: relative;
+} 
+  
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+  
+.caixa-dos-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+ 
+.caixa-dos-links a{
+    color: white;
+    text-decoration: none
+}
+   
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 10;
+    position: relative;
+}
+   
+#gradiente{
+    background-image: linear-gradient(to right, darkblue, white, darkblue);
+}
+
+#grad{
+    background-image: linear-gradient(to right,darkblue, white, darkblue);
+} 
+
+.textinho{
+    position: absolute;
+    bottom: 45%;
+    right: 60%;
+    z-index: 5;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imagem-bebida{
+    position: absolute;
+    z-index: 10;
+    width: 25%;
+}
+
+footer{
+    flex-grow: 1;
+    background-color: white;
+    position: relative;
+}
+  
+.mapa{
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
