@@ -4,14 +4,12 @@
    box-sizing: border-box;
 }
  
- 
 body{
    display: flex;
    flex-direction: column;
    height: 100vh;
 }
- 
- 
+
 header{
    flex-grow: 1;
    background-color: rgba(227, 33, 33, 0.948);
@@ -43,7 +41,6 @@ header{
    text-decoration: none;
 }
  
- 
 main{
    display: flex;
    justify-content: center;
@@ -51,7 +48,6 @@ main{
    flex-grow: 10;
    position: relative;
 }
- 
  
 #gradiente{
    background-image: linear-gradient(rgba(227, 33, 33, 0.948), rgba(209, 121, 121, 0.945), rgba(227, 33, 33, 0.948));
@@ -89,8 +85,4 @@ footer{
    position: absolute;
    bottom: 25px;
    right: 50px;
-}
-
-@media{
-   
 }
