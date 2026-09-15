@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body{
     display: flex;
     flex-direction: column;
@@ -16,13 +16,13 @@ header{
     background-color: white;
     position: relative;
 } 
-  
+
 .menu{
     position: absolute;
     top: 50px;
     left: 50px;
 }
-  
+
 .caixa-dos-links{
     display: flex;
     flex-direction: row;
@@ -35,12 +35,12 @@ header{
     top: 50px;
     left: 200px;
 }
- 
+
 .caixa-dos-links a{
     color: white;
     text-decoration: none
 }
-   
+
 main{
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ main{
     flex-grow: 10;
     position: relative;
 }
-   
+
 #gradiente{
     background-image: linear-gradient(to right, darkblue, white, darkblue);
 }
@@ -81,9 +81,70 @@ footer{
     background-color: white;
     position: relative;
 }
-  
+
 .mapa{
     position: absolute;
     bottom: 25px;
     right: 50px;
+}
+
+@media (max-width: 667px){
+
+    #gradiente{
+        background-image: linear-gradient(darkblue, white, darkblue);
+    }
+
+    #grad{
+        background-image: linear-gradient(darkblue);
+    } 
+
+    .caixa-dos-links{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       font-size: 12px;
+       font-family: Arial, Helvetica, sans-serif;
+       gap: 10px;
+       position: absolute;
+       top: 20px;
+       left: 120px;
+    }
+
+    .textinho{
+       top: 10%;
+       right: 30%;
+       z-index: 5;
+       color: white;
+       font-family: arial black;
+       font-weight: bold;
+       font-size: 15px;
+       text-align: center;
+    }
+
+    .imagem-bebida{
+       width: 80%;
+       bottom: 80px;
+       z-index: 10;
+    }
+
+    .imagem-background{
+       position: absolute;
+       width: 90%;
+       z-index: 1;
+    }
+
+    .menu{
+        position: absolute;
+        width: 20%;
+        top: 25px;
+        left: 25px;
+    }
+
+    .mapa{
+        position: absolute;
+        width: 10%;
+        bottom: 25px;
+        right: 25px;
+    }
 }
