@@ -33,8 +33,7 @@ header{
    position: absolute;
    top: 25px;
    left: 200px;
- }
- 
+}
  
 .caixa-dos-links a{
    color: white;
@@ -85,4 +84,62 @@ footer{
    position: absolute;
    bottom: 25px;
    right: 50px;
+}
+
+@media (max-width: 667px){
+
+   .caixa-dos-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      gap: 50px;
+      position: absolute;
+      top: 25px;
+      left: 150px;
+   }
+    
+   .caixa-dos-links a{
+      color: white;
+      text-decoration: none;
+   }
+
+   .textinho{
+      top: 45%;
+      right: 70%;
+      z-index: 5;
+      color: white;
+      font-family: arial black;
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+   }
+    
+   .imagem-bebida{
+      position: absolute;
+      width: 25%;
+      z-index: 10;
+   }
+    
+   .imagem-background{
+      position: absolute;
+      width: 80%;
+      z-index: 1;
+   }
+
+   .menu{
+      position: absolute;
+      width: 20%;
+      top: 25px;
+      left: 25px;
+   }
+
+   .mapa{
+      position: absolute;
+      width: 10%;
+      bottom: 25px;
+      right: 25px;
+   }
 }
